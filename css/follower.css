@@ -1,0 +1,22 @@
+#follower{
+    width: 100%;
+}
+.follower-container{
+    width: 85%;
+    margin: auto;
+}
+.follower-container ul{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.follower-container ul li{
+    width: auto;
+    list-style: none;
+    display: flex;
+}
+.follower-container ul li img{
+    width: 180px;
+}

@@ -1,0 +1,23 @@
+#navbar{
+    width: 100%;
+    background-color: rgba(196, 196, 196, 1);
+    height: 50px;
+}
+.nav{
+    width: 85%;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    color: white;
+}
+.nav ul li{
+    list-style: none;
+    font-size: 0.5rem;
+}

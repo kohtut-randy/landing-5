@@ -1,0 +1,26 @@
+#students{
+    width: 100%;
+    height: 550px;
+    margin-top: 8rem;
+    position: relative;
+}
+.students-container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+
+}
+.students-container .image{
+    width: 310px;
+}
+.students-container .say{
+    width: 636px;;
+}
+#students .sdots{
+    width:66px;
+    position: absolute;
+    right: 400px;
+}

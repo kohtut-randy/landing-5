@@ -1,0 +1,32 @@
+#offer{
+    width: 100%;
+}
+.offer-container{
+    width: 85%;
+    height: 350px;
+    margin: auto;
+    background-color: rgba(0, 28, 128, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    position: relative;
+}
+.offer-container h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+}
+.offer-container .input{
+    width: 550px;
+    height: auto;
+}
+.offer-container .offer-shapes{
+    width: 800px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
