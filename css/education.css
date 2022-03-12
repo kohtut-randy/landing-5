@@ -5,12 +5,11 @@
     padding: 3rem 0;
 }
 .education-container{
-    width: 90%;
+    width: 85%;
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 5rem;
+    justify-content: space-between;
 }
 .education-container .education-image img{
     width: 650px;

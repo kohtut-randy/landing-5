@@ -4,13 +4,14 @@
     position: relative;
 }
 .online-container{
-    width: 90%;
+    width: 92%;
     margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 45rem;
+    position: relative;
 }
 .online-container .online-text{
     margin-top: 4rem;
@@ -19,6 +20,9 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    position: absolute;
+    left: 0px;
+    top: 30px;
 }
 .online-container .online-text h6{
     font-size: 1rem;
