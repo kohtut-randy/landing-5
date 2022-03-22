@@ -1,9 +1,11 @@
 #follower{
     width: 100%;
+    height: 150px;
 }
 .follower-container{
     width: 85%;
     margin: auto;
+    margin-top: 2rem;
 }
 .follower-container ul{
     width: auto;
@@ -19,4 +21,98 @@
 }
 .follower-container ul li img{
     width: 180px;
+}
+@media(min-width:0px) and (max-width:480px){
+    #follower{
+        width: 100%;
+        height: 650px;
+        overflow-x: hidden;
+    }
+    .follower-container{
+        width: 85%;
+        margin: auto;
+        padding: 2rem 0;
+    }
+    .follower-container ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+}
+@media(min-width:481px) and (max-width:820px){
+    #follower{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .follower-container{
+        width: 85%;
+        margin: auto;
+        padding: 2rem 0;
+    }
+    .follower-container ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+}
+@media(min-width:1500px){
+    #follower{
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .follower-container{
+        width: 85%;
+        margin: auto;
+        padding: 2rem 0;
+    } 
+    .follower-container ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}
+@media(min-width:1700px){
+    #follower{
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .follower-container{
+        width: 85%;
+        margin: auto;
+        padding: 2rem 0;
+    } 
+    .follower-container ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}
+@media(min-width:1900px){
+    #follower{
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .follower-container{
+        width: 85%;
+        margin: auto;
+        padding: 2rem 0;
+    } 
+    .follower-container ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
 }
