@@ -41,24 +41,7 @@
         gap: 3rem;
     }
 }
-@media(min-width:481px) and (max-width:820px){
-    #follower{
-        width: 100%;
-        overflow-x: hidden;
-    }
-    .follower-container{
-        width: 85%;
-        margin: auto;
-        padding: 2rem 0;
-    }
-    .follower-container ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 3rem;
-    }
-}
+
 @media(min-width:1500px){
     #follower{
         width: 100%;
