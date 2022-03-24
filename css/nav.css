@@ -18,6 +18,24 @@
     gap: 2rem;
     color: white;
 }
+.nav .log-sign{
+    display: flex;
+}
+.nav .log-sign .login{
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+.nav .log-sign .signup{
+    font-size: 1rem;
+    color: white;
+    background-color:rgb(253, 76, 92);
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5%;
+}
+
 .nav ul li{
     list-style: none;
     font-size: 1rem;
@@ -56,7 +74,7 @@
     .nav ul{
         display: none;
     }
-    .nav .login{
+    .nav .log-sign{
         display: none;
     }
     .navation__container-line {
@@ -150,9 +168,7 @@
     .nav ul li{
         font-size: 1.5rem;
     }
-    .nav .login img{
-        width: 250px;
-    }
+    
 }
 @media(min-width:1700px){
     #navbar{
@@ -170,9 +186,7 @@
     .nav ul li{
         font-size: 1.5rem;
     }
-    .nav .login img{
-        width: 250px;
-    }
+    
 }
 @media(min-width:1900px){
     #navbar{
@@ -190,7 +204,5 @@
     .nav ul li{
         font-size: 1.5rem;
     }
-    .nav .login img{
-        width: 250px;
-    }
+    
 }

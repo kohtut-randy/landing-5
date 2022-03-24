@@ -2,6 +2,7 @@
     width: 100%;
     background-color: rgba(0, 28, 128, 0.02);
     height: 700px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .course-container{
     width: 85%;
@@ -35,15 +36,106 @@
     text-align: center;
     margin-bottom: 2rem;
 }
-.course-container .course-card{
-    width:100%;
+.course-card{
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+}
+.course-card .card{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+    border-radius: 10px;
 }
 .course-container .course-card img{
-    width:250px;
+    width: 230px;
+    border-radius: 10px;
+}
+.science{
+    color: #00BB98;
+    border: #00BB98 1px solid;
+    width: 65px;
+    padding:0.25rem 0.5rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    background-color: white;
+}
+.biology{
+    color: #781BFF;
+    border: #781BFF 1px solid;
+    width: 65px;
+    padding:0.25rem 0.5rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 160px; 
+    left: 290px;
+    background-color: white;
+}
+.maths{
+    color: #FD4C5C;
+    border: #FD4C5C 1px solid;
+    width: 90px;
+    padding:0.25rem 0.5rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 160px; 
+    left: 550px;
+    background-color: white;
+
+}
+.english{
+    color: #FFC83E;
+    border:#FFC83E 1px solid;
+    width: 65px;
+    padding:0.25rem 0.5rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 160px; 
+    left: 820px;
+    background-color: white;
+}
+.card-text{
+    width: 100%;
+}
+.course-card .card p{
+    font-size: 1rem;
+    color: rgba(0, 11, 51, 0.7);
+    text-align: start;
+    margin-bottom: 1.5rem;
+}
+.course-card .card .stars{
+    width: 100px;
+    margin-bottom: 1.5rem;  
+}
+.course-card .card .price{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+}
+.course-card .card .price h5{
+    font-size: 1.2rem;
+}
+.course-card .card .price h6{
+    text-decoration: line-through;
+    color: rgba(0, 11, 51, 0.7);
+    font-size: 1rem;
+}
+.course-card .card .price button{
+    background-color:rgb(253, 76, 92);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
 }
 @media(min-width:0px) and (max-width:480px){
     #course{
@@ -78,9 +170,7 @@
         align-items: center;
         justify-content: center;
     }
-    .course-container .course-card img{
-        width: 50%;
-    }
+    .
 }
 
 @media(min-width:1500px){
@@ -111,8 +201,20 @@
         text-align: center;
         margin-bottom: 2rem;
     }
-    .course-container .course-card img{
+    .course-card .card{
         width: 300px;
+    }
+    .course-card .card img{
+        width: 300px;
+    }
+    .biology{
+        left:400px ;
+    }
+    .maths{
+        left: 780px;
+    }
+    .english{
+        left: 1160px;
     }
 }
 @media(min-width:1700px){
@@ -145,6 +247,22 @@
     }
     .course-container .course-card img{
         width: 300px;
+    }
+    .science{
+        top: 210px;
+        left: 2px;
+    }
+    .biology{
+        top: 210px;
+        left:450px ;
+    }
+    .maths{
+        top: 210px;
+        left: 860px;
+    }
+    .english{
+        top: 210px;
+        left: 1290px;
     }
 }
 @media(min-width:1900px){

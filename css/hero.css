@@ -37,20 +37,20 @@
     margin: 2rem 0;
 }
 .hero-container .hero-image img{
-    width: 700px;
+    width: 650px;
     position: absolute;
     right: 0;
-    top: 95px;
+    top: 143px;
     margin: 2rem 0;
 }
 .e-61{
     position: absolute;
-    left: 850px;
-    top: 170px;
+    left: 750px;
+    top: 200px;
 }
 .e-62{
     position: absolute;
-    left: 600px;
+    left: 550px;
     top: 550px;
 }
 .dots{

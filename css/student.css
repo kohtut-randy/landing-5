@@ -3,6 +3,7 @@
     height: 550px;
     margin-top: 4rem;
     position: relative;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .students-container{
     width: 85%;
@@ -14,8 +15,47 @@
 .students-container .image{
     width: 310px;
 }
-.students-container .say{
+.student-says {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
     width: 636px;
+    height: 310px;
+    box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+    border-radius: 10px;
+}
+.student-says p{
+    font-size: 0.8rem;
+    text-align: center;
+    color: rgba(0, 11, 51, 0.7);
+}
+.student-says .footer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.student-says .footer h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.student-says .footer h6{
+    font-size: 1rem;
+    text-align: center;
+}
+.student-says img{
+    width: 90px;
+}
+.student-says .comma{
+    width: 120px;
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
 }
 #students .sdots{
     width:66px;
@@ -42,9 +82,6 @@
         justify-content: center;
     }
     .students-container .image{
-        width: 50%;
-    }
-    .students-container .say{
         width: 50%;
     }
     #students .sdots{
@@ -74,9 +111,6 @@
     .students-container .image{
         width: 400px;
     }
-    .students-container .say{
-        width: 700px;
-    }
     #students .sdots{
         width:80px;
         position: absolute;
@@ -100,9 +134,6 @@
     .students-container .image{
         width: 430px;
     }
-    .students-container .say{
-        width: 730px;
-    }
     #students .sdots{
         width:80px;
         position: absolute;
@@ -125,9 +156,6 @@
     }
     .students-container .image{
         width: 450px;
-    }
-    .students-container .say{
-        width: 750px;
     }
     #students .sdots{
         width:100px;
