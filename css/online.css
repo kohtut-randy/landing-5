@@ -47,7 +47,7 @@
     width: 380px;
     margin-bottom: 1rem;
 }
-.online-container .online-image img{
+.online-container .online-image .desktop-screen{
     width: 730px;
     position: absolute;
     top: 100px;
@@ -90,6 +90,12 @@
         width: 300px;
         top: 700px;
         left: 30px;
+    }
+    .online-container .online-image .desktop-screen{
+        display: none;
+    }
+    .online-container .online-image .mobile-screen{
+        width: 200px;
     }
 }
 

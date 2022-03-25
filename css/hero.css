@@ -91,7 +91,7 @@
         position: absolute;
        width:380px;
        right: 0px;
-        top: 500px;
+        top: 515px;
     }
 
 }
@@ -102,6 +102,7 @@
         height: 780px;
         overflow-x: hidden;
         position: relative;
+        overflow-y: hidden;
     }
     .hero-container .hero-text h3{
         font-size: 5rem;
@@ -116,7 +117,7 @@
     .e-61{
         width: 150px;
         position: absolute;
-        left: 1100px
+        left: 1130px
     }
     .e-62{
         width: 60px;
@@ -144,7 +145,7 @@
     .e-61{
         width: 150px;
         position: absolute;
-        left: 1300px
+        left: 1330px
     }
     .e-62{
         width: 60px;
@@ -172,7 +173,7 @@
     .e-61{
         width: 150px;
         position: absolute;
-        left: 1500px
+        left: 1530px
     }
     .e-62{
         width: 60px;
