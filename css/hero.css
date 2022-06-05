@@ -36,6 +36,24 @@
     line-height: 1.5rem;
     margin: 2rem 0;
 }
+.hero-container .hero-text .hero-button button{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #FD4C5C;
+    border-radius: 3px;
+    border: none;
+}
+.hero-container .hero-text .hero-button p{
+    color: white;
+}
+.hero-container .hero-text .hero-button img{
+    width: 15px;
+}
 .hero-container .hero-image img{
     width: 650px;
     position: absolute;
@@ -45,7 +63,7 @@
 }
 .e-61{
     position: absolute;
-    left: 750px;
+    left: 900px;
     top: 200px;
 }
 .e-62{

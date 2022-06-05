@@ -22,18 +22,18 @@
     display: flex;
 }
 .nav .log-sign .login{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: white;
     background-color: transparent;
     border: none;
 }
 .nav .log-sign .signup{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: white;
     background-color:rgb(253, 76, 92);
     border: none;
-    padding: 4px 8px;
-    border-radius: 5%;
+    padding: 8px 16px;
+    border-radius: 5px;
 }
 
 .nav ul li{

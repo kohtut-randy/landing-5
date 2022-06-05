@@ -15,7 +15,7 @@
     position: relative;
 }
 .online-container .online-text{
-    margin-top: 4rem;
+    margin-top: 1rem;
     margin-left: 3rem;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,68 @@
     width: 730px;
     position: absolute;
     top: 100px;
-    left: 515px;
+    left: 535px;
+}
+.online-container .online-image .mobile-screen{
+    display: none;
+}
+.online-container .online-text .dropbox img{
+    width: 50px;
+}
+.online-container .online-text .dropbox {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.online-container .online-text .dropbox .drop-one{
+    padding: 0.5rem 0;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border: 1px solid #00BB98;
+    border-radius: 5px;
+}
+.online-container .online-text .dropbox .drop-one div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.online-container .online-text .dropbox .drop-one div img{
+    margin-right: 2.7rem;
+}
+.online-container .online-text .dropbox .drop-one p{
+    margin-left: 6rem;
+    text-align: center;
+}
+.online-container .online-text .dropbox .drop-two{
+    padding: 0.5rem 1rem;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    border: 1px solid #00BB98;
+    border-radius: 5px;
+}
+.online-container .online-text .dropbox .drop-three{
+    padding: 0.5rem 1rem;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 3rem;
+    border: 1px solid #00BB98;
+    border-radius: 5px;
 }
 @media(min-width:0px) and (max-width:480px){
     #online{

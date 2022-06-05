@@ -64,6 +64,21 @@
     color: rgba(0, 11, 51, 0.8);
     margin-bottom: 2rem;
 }
+.education-container .education-text .education-button button{
+    width: 130px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    background-color: #FD4C5C;
+    border-radius: 3px;
+    border: none;
+}
+.education-container .education-text .education-button p{
+    color: white;
+    margin-top: 2rem;
+}
 @media(min-width:0px) and (max-width:480px){
     #education{
         width: 100%;
