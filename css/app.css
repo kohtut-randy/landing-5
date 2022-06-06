@@ -39,6 +39,21 @@
     text-align: start;
     margin-bottom: 2rem;
 }
+.app-container .app-text button{
+    width: 130px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    background-color: #FD4C5C;
+    border-radius: 3px;
+    border: none;
+}
+.app-container .app-text button p{
+    color: white;
+    margin-top: 2rem;
+}
 .ae-60{
     position: absolute;
     left: 510px;
@@ -75,6 +90,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-left: 1rem;
 
     }
     .app-container .app-text h6{
@@ -91,7 +107,13 @@
         text-align: center;
 
     }
-
+    .app-container .app-text button{
+        width: 100px;
+        height: 40px;
+    }
+    .app-container .app-text button p{
+        font-size: 0.8rem;
+    }
     .app-container img{
         width: 70px;
     }

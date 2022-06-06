@@ -25,8 +25,9 @@
 @media(min-width:0px) and (max-width:480px){
     #follower{
         width: 100%;
-        height: 650px;
+        height: 430px;
         overflow-x: hidden;
+        overflow-y: hidden;
     }
     .follower-container{
         width: 85%;
@@ -39,6 +40,9 @@
         align-items: center;
         justify-content: center;
         gap: 3rem;
+    }
+    .follower-container ul li img{
+        width: 100px;
     }
 }
 

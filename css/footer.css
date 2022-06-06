@@ -144,6 +144,9 @@
     .footer-container .social p{
         text-align: start;
     }
+    #footer footer{
+        margin-left: 2rem;
+    }
 }
 
 @media(min-width:1500px){

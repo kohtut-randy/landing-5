@@ -3,6 +3,7 @@
     height: 750px;
     position: relative;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .online-container{
     width: 88%;
@@ -35,11 +36,13 @@
     font-size: 2rem;
     line-height: 58px;
     margin:1rem 0;
+    font-weight: 400;
 }
 .online-container .online-text p{
     font-size: 0.8rem;
     line-height: 26px;
-    color: rgba(0, 11, 51, 0.8);
+    color: #000B33;
+    opacity: 0.8;
     margin-bottom: 2rem;
     margin: 0;
 }
@@ -48,7 +51,7 @@
     margin-bottom: 1rem;
 }
 .online-container .online-image .desktop-screen{
-    width: 730px;
+    width: 830px;
     position: absolute;
     top: 100px;
     left: 535px;
@@ -67,6 +70,14 @@
     justify-content: center;
     gap: 1rem;
 }
+.online-container .online-text .dropbox .drop-one div .v-1{
+    width: 10px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.online-container .online-text .dropbox .v-2{
+    width: 10px;
+}
 .online-container .online-text .dropbox .drop-one{
     padding: 0.5rem 0;
     width: 400px;
@@ -75,8 +86,10 @@
     align-items: center;
     justify-content: center;
     gap: 4px;
-    border: 1px solid #00BB98;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: -1px 15px 21px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 15px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 15px 21px 0px rgba(0,0,0,0.75);
 }
 .online-container .online-text .dropbox .drop-one div{
     width: 100%;
@@ -91,6 +104,8 @@
 .online-container .online-text .dropbox .drop-one p{
     margin-left: 6rem;
     text-align: center;
+    color: #000B33;
+    opacity: 0.8;
 }
 .online-container .online-text .dropbox .drop-two{
     padding: 0.5rem 1rem;
@@ -100,8 +115,10 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    border: 1px solid #00BB98;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: -1px 15px 21px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 15px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 15px 21px 0px rgba(0,0,0,0.75);
 }
 .online-container .online-text .dropbox .drop-three{
     padding: 0.5rem 1rem;
@@ -111,8 +128,10 @@
     align-items: center;
     justify-content:center;
     gap: 3rem;
-    border: 1px solid #00BB98;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: -1px 15px 21px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 15px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 15px 21px 0px rgba(0,0,0,0.75);
 }
 @media(min-width:0px) and (max-width:480px){
     #online{
@@ -133,15 +152,18 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-left: 1rem;
     }
     .online-container .online-text h6{
         font-size: 1.5rem;
     }
     .online-container .online-text h3{
         font-size: 2rem;
+        text-align: center;
     }
     .online-container .online-text p{
-        font-size: 1rem;
+        font-size: 0.7em;
+        text-align: center;
     }
     .online-container .online-text img{
         width: 250px;
@@ -156,10 +178,23 @@
         display: none;
     }
     .online-container .online-image .mobile-screen{
-        width: 200px;
+        width: 400px;
+        display: block;
+        margin-left: -20px;
+    }
+    .online-container .online-text .dropbox .drop-one{
+        width: 350px;
+    }
+    .online-container .online-text .dropbox .drop-one p{
+        display: none;
+    }
+    .online-container .online-text .dropbox .drop-two{
+        width: 300px;
+    }
+    .online-container .online-text .dropbox .drop-three{
+        width: 300px;
     }
 }
-
 @media(min-width:1500px){
     #online{
         width: 100%;
